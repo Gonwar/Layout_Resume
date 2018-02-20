@@ -74,6 +74,14 @@ module.exports = {
                     'image-loader',
                 ],
             
+              },
+              //Add fonts
+              {
+                test: /\.(svg|woff|woff2|eot|ttf|otf)$/,
+                loader: 'file-loader',
+                    options: {
+                        name: '[path][name].[ext]',
+                },
               }
           ],
       },
@@ -85,13 +93,9 @@ module.exports = {
 
         new CopyWebpackPlugin(
             [
-                { from: './img', to : 'img'}
+                { from: './img', to : 'img'},
+                { from: './fonts', to: 'fonts'},
             ],
-            {
-                ignore: [
-                    { glob: 'svg/*'}
-                ]
-            }
         ),
     ],
       
