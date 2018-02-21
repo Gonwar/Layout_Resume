@@ -1,0 +1,23 @@
+/**** Circle -- https://codepen.io/anon/pen/GQdBpW ****/
+@mixin circle{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.main__logo__picture{
+    width: 209px;
+    height: 209px;
+    padding: 0;
+  }
+  
+  
+  .main__logo__picture-border{
+    @include circle();
+    border: 1px solid #006cb4;
+    padding: 0.9em;
+  }
+  
+  .main__logo__picture-circle{
+    @include circle();
+    background-color: #006cb4;
+  }

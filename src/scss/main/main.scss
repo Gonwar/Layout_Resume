@@ -1,7 +1,19 @@
 @import"../fonts.scss";
 
+/* Раздел ЛОГО */
+@import "/__logo/__logo.scss"; 
+/***************/
+
+/* Заголовки разделов */
+@import "/__caption/__caption.scss"; 
+/**********************/
 body{
     max-width: 1280px;
     min-width: 600px;
     font-family: $font_regular;
+}
+
+.main>section{
+    margin: auto;
+    border: 1px dashed gray;
 }
