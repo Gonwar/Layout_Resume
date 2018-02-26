@@ -1,9 +1,6 @@
-@import "/__circle/__circle.scss";
 
 .main__caption{
-    border: 1px dotted black;
-}
-.main__caption{
+    @import "/__circle/__circle.scss";
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -13,20 +10,22 @@
 .main__caption__logo{
     margin-top: -3px; 
 }
+
 .main__caption__text{
 
-    min-width: 60%;
+    flex-grow: 1;
     height: 5px;
-    margin-left: 7px;
+    margin-left: 5px;
     margin-top: 1px;
     background-color: #006cb4;
 }
+
 .main__caption__text-tittle{
     border: 1px dotted black;
     text-transform: uppercase;
     font-family: $font_bold;
-    font-size: 44px;
-    letter-spacing: -1px;
+    font-size: 2.6em;
+    letter-spacing: 1px;
     color: #006cb4;
     text-align:left;
     margin-left: 18px;

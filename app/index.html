@@ -5,24 +5,30 @@
     <link  rel="stylesheet" href="../dist/css/app.css">
     <title>Resume</title>
 </head>
-<body class="main">
+<body>
 
-
+<div class="left__column">
 <!-- Logo -->
-    <section class="main__logo">
-        <div class="main__logo__picture">
-                <div class="main__logo__picture-border">
-                        <div class="main__logo__picture-circle">
-                        </div>
-                </div>
-        </div
-        <div>
-            <h1>NAME HERE<br/><b>SURNAME</h1><br/> graphic designer</b>
-    </section>
+    <article class="main">
+        <section class="main__content">
+            <div class="main__logo__picture">
+                    <div class="main__logo__picture-border">
+                            <div class="main__logo__picture-circle">
+                            </div>
+                    </div>
+            </div>
+        
+            <div class="main__logo__text">
+                <h1 class="main__logo__text-name">NAME HERE<br/>
+                <b>SURNAME</b></h1>
+                graphic designer
+            </div>
+        </section>
+    </article>
 
 
 <!-- Profile -->
-    <section class="main__profile">
+    <article class="main">
         <header class="main__caption">
             <div class="main__caption__logo">
                 <div class="main__caption__logo-border">
@@ -30,17 +36,17 @@
                     </div>
                 </div>
             </div>
-            <span class="main__caption__text-tittle">Profile</span>
+            <h2 class="main__caption__text-tittle">Profile</h2>
             <div class="main__caption__text"></div>
-            </div>
         </header>
-
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. 
-    </section>
+        <section class="main__content">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis <b>eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.</b>
+        </section>
+    </article>
 
 
 <!-- Contact -->
-    <section class="main__contact">
+    <article class="main">
         <header class="main__caption">
             <div class="main__caption__logo">
                 <div class="main__caption__logo-border">
@@ -48,26 +54,33 @@
                     </div>
                 </div>
             </div>
-            <span class="main__caption__text-tittle">Contact</span>
+            <h2 class="main__caption__text-tittle">Contact</h2>
             <div class="main__caption__text"></div>
-            </div>
         </header>
+        <section class="main__content">
+            <table class="contact">
+                <tr class="contact__row">
+                    <td class="contact__row_tittle">address</td>
+                    <td class="contact__row_content">Main Street, City</td>
+                </tr>
+                <tr class="contact__row">
+                    <td class="contact__row_tittle">e-mail</td>
+                    <td class="contact__row_content">contact@domain.com</td>
+                </tr>
+                <tr class="contact__row">
+                    <td class="contact__row_tittle">phone</td>
+                    <td class="contact__row_content">555-555-555</td>
+                </tr>
+                <tr class="contact__row">
+                    <td class="contact__row_tittle">website</td>
+                    <td class="contact__row_content">www.yourweb.com</td>
+                </tr>
+            </table>           
+        </section>
+    </article>
 
-        <dl>
-            <dt>adress</dt>
-            <dd>Main Street, City</dd>
-            <dt>e-mail</dt>
-            <dd>contact@domain.com</dd>
-            <dt>phone</dt>
-            <dd>555-555-555</dd>
-            <dt>website</dt>
-            <dd>www.yourweb.com</dd>
-        </dl>
-    </section>
-
-
-<!-- Skills -->
-    <section class="main__skills">
+    <!-- Skills -->
+<article class="main">
         <header class="main__caption">
             <div class="main__caption__logo">
                 <div class="main__caption__logo-border">
@@ -75,87 +88,89 @@
                     </div>
                 </div>
             </div>
-            <span class="main__caption__text-tittle">Skills</span>
+            <h2 class="main__caption__text-tittle">Skills</h2>
             <div class="main__caption__text"></div>
-            </div>
         </header>
+        <section class="main__content">
+            <dl class="skills">
+                <dt class="skills__tittle">creative</dt>
+                <dd class="skills__description">
+                    <ul class="skills__progress">
+                        <li class="skills__progress__dot enabled"></li>
+                        <li class="skills__progress__dot enabled"></li>
+                        <li class="skills__progress__dot enabled"></li>
+                        <li class="skills__progress__dot enabled"></li>
+                        <li class="skills__progress__dot enabled"></li>
+                        <li class="skills__progress__dot enabled"></li>
+                        <li class="skills__progress__dot enabled"></li>
+                        <li class="skills__progress__dot enabled"></li>
+                        <li class="skills__progress__dot enabled"></li>
+                        <li class="skills__progress__dot"></li>
+                        <li class="skills__progress__dot"></li>
+                        <li class="skills__progress__dot"></li>
+                    </ul>
+                </dd>
+                <dt class="skills__tittle">teamwork</dt>
+                <dd class="skills__description">
+                    <ul class="skills__progress">
+                        <li class="skills__progress__dot enabled"></li>
+                        <li class="skills__progress__dot enabled"></li>
+                        <li class="skills__progress__dot enabled"></li>
+                        <li class="skills__progress__dot enabled"></li>
+                        <li class="skills__progress__dot enabled"></li>
+                        <li class="skills__progress__dot enabled"></li>
+                        <li class="skills__progress__dot enabled"></li>
+                        <li class="skills__progress__dot enabled"></li>
+                        <li class="skills__progress__dot enabled"></li>
+                        <li class="skills__progress__dot enabled"></li>
+                        <li class="skills__progress__dot enabled"></li>
+                        <li class="skills__progress__dot"></li>
+                    </ul>
+                </dd>
+                <dt class="skills__tittle">innovate</dt>
+                <dd class="skills__description">
+                    <ul class="skills__progress">
+                        <li class="skills__progress__dot enabled"></li>
+                        <li class="skills__progress__dot enabled"></li>
+                        <li class="skills__progress__dot enabled"></li>
+                        <li class="skills__progress__dot enabled"></li>
+                        <li class="skills__progress__dot enabled"></li>
+                        <li class="skills__progress__dot enabled"></li>
+                        <li class="skills__progress__dot enabled"></li>
+                        <li class="skills__progress__dot"></li>
+                        <li class="skills__progress__dot"></li>
+                        <li class="skills__progress__dot"></li>
+                        <li class="skills__progress__dot"></li>
+                        <li class="skills__progress__dot"></li>
+                    </ul>
+                </dd>
+                <dt class="skills__tittle">Communication</dt>
+                <dd class="skills__description">
+                    <ul class="skills__progress">
+                        <li class="skills__progress__dot enabled"></li>
+                        <li class="skills__progress__dot enabled"></li>
+                        <li class="skills__progress__dot enabled"></li>
+                        <li class="skills__progress__dot enabled"></li>
+                        <li class="skills__progress__dot enabled"></li>
+                        <li class="skills__progress__dot enabled"></li>
+                        <li class="skills__progress__dot enabled"></li>
+                        <li class="skills__progress__dot enabled"></li>
+                        <li class="skills__progress__dot enabled"></li>
+                        <li class="skills__progress__dot enabled"></li>
+                        <li class="skills__progress__dot enabled"></li>
+                        <li class="skills__progress__dot"></li>
+                    </ul>
+                </dd>
+           </dl>
+        </section>
+    </article>
 
-        <dl>
-            <dt>creative</dt>
-            <dd>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </dd>
-            <dt>teamwork</dt>
-            <dd>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </dd>
-            <dt>innovate</dt>
-            <dd>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </dd>
-            <dt>communication</dt>
-            <dd>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </dd>
-        </dl>
-    </section>
+</div>
 
-
+<div class="right__column">
 <!-- Education -->
 
-    <section class="main__education">
+    <article class="main">
 
         <header class="main__caption">
             <div class="main__caption__logo">
@@ -164,38 +179,38 @@
                     </div>
                 </div>
             </div>
-            <span class="main__caption__text-tittle">Education</span>
+            <h2 class="main__caption__text-tittle">Education</h2>
             <div class="main__caption__text"></div>
-            </div>
         </header>
-
-        <ul>
-            <li>
-                <h3>master degree</h3><span>Feb 2011-Jun2014</span><br/>
-                <span>university name</span><br/>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.
-            </li>
-            <li>
+        <section class="main__content">
+            <ul>
+                <li>
                     <h3>master degree</h3><span>Feb 2011-Jun2014</span><br/>
                     <span>university name</span><br/>
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.
-            </li>
-            <li>
-                    <h3>master degree</h3><span>Feb 2011-Jun2014</span><br/>
-                    <span>university name</span><br/>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.
-            </li>
-            <li>
-                    <h3>master degree</h3><span>Feb 2011-Jun2014</span><br/>
-                    <span>university name</span><br/>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.
-            </li>
-        </ul>
-    </section>
+                </li>
+                <li>
+                        <h3>master degree</h3><span>Feb 2011-Jun2014</span><br/>
+                        <span>university name</span><br/>
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.
+                </li>
+                <li>
+                        <h3>master degree</h3><span>Feb 2011-Jun2014</span><br/>
+                        <span>university name</span><br/>
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.
+                </li>
+                <li>
+                        <h3>master degree</h3><span>Feb 2011-Jun2014</span><br/>
+                        <span>university name</span><br/>
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.
+                </li>
+            </ul>
+        </section>
+    </article>
 
 
 <!-- Experience -->
-    <section class="main__experience">
+    <article class="main">
         <header class="main__caption">
             <div class="main__caption__logo">
                 <div class="main__caption__logo-border">
@@ -203,12 +218,11 @@
                     </div>
                 </div>
             </div>
-            <span class="main__caption__text-tittle">Experience</span>
+            <h2 class="main__caption__text-tittle">Experience</h2>
             <div class="main__caption__text"></div>
-            </div>
         </header>
-
-        <ul>
+        <section class="main__content">
+            <ul>
                 <li>
                     <h3>company name</h3><span>Feb 2011-Jun2014</span><br/>
                     <span>your job here</span><br/>
@@ -225,63 +239,56 @@
                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.
                 </li>
             </ul>
-    </section>
+        </section>
+    </article>
 
 
 <!-- Software -->
-    <section class="main__software">
-            <header class="main__caption">
-                    <div class="main__caption__logo">
-                        <div class="main__caption__logo-border">
-                            <div class="main__caption__logo-circle">
-                            </div>
-                        </div>
-                    </div>
-                    <span class="main__caption__text-tittle">Software</span>
-                    <div class="main__caption__text"></div>
-                    </div>
-                </header>
-        <dl>
-            <dt>
-                photoshop
-            </dt>
-            <dd>
-                <div class="progress_bar"><div class="progress_bar_completed" id="progress_photoshop"></div></div>
-            </dd>
+    <article class="main ">
 
-            <dt>
-                illustration
-            </dt>
-            <dd>
-                <div class="progress_bar"><div class="progress_bar_completed" id="progress_illustration"></div></div>
-            </dd>
-                
-            <dt>
-                indesign
-            </dt>
-            <dd>
-                <div class="progress_bar"><div class="progress_bar_completed" id="progress_indesign"></div></div>
-            </dd>
+    <header class="main__caption">
+        <div class="main__caption__logo">
+            <div class="main__caption__logo-border">
+                <div class="main__caption__logo-circle">
+                </div>
+            </div>
+        </div>
+        <h2 class="main__caption__text-tittle">Software</h2>
+        <div class="main__caption__text"></div>
+    </header>
+
+    <section class="main__content software">
+        <div class="software__progress">
+            photoshop
+            <div class="software__progress__bar"><div class="software__progress__bar_completed" id="progress_photoshop"></div></div>
+        </div>    
+        <div class="software__progress">
+        dreamweaver
+        <div class="software__progress__bar"><div class="software__progress__bar_completed" id="progress_dreamweaver"></div></div>
+        </div>
+        <div class="software__progress">
+            illustration
+            <div class="software__progress__bar"><div class="software__progress__bar_completed" id="progress_illustration"></div></div>
+        </div>
         
-            <dt>
-                dreamweaver
-            </dt>
-            <dd>
-                <div class="progress_bar"><div class="progress_bar_completed" id="progress_dreamweaver"></div></div>
-            </dd>
-            <dt>
-                after effects
-            </dt>
-            <dd>
-                <div class="progress_bar"><div class="progress_bar_completed" id="progress_after_effects"></div></div>
-            </dd>
-            <dt>
-                html&css3
-            </dt>
-            <dd>
-                <div class="progress_bar"><div class="progress_bar_completed" id="progress_html&css3"></div></div>
-            </dd>
-        </dl>
+        <div class="software__progress">
+            after effects
+            <div class="software__progress__bar"><div class="software__progress__bar_completed" id="progress_after_effects"></div></div>
+        </div>
+    
+        
+        <div class="software__progress">
+            indesign
+            <div class="software__progress__bar"><div class="software__progress__bar_completed" id="progress_indesign"></div></div>
+        </div>
+        
+        <div class="software__progress">
+            html&css3
+            <div class="software__progress__bar"><div class="software__progress__bar_completed" id="progress_htmlcss3"></div></div>
+        </div>
     </section>
+    </article>
+
+</div>
 </body>
 </html>

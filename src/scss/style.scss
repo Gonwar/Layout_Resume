@@ -1,1 +1,19 @@
+@import"fonts.scss";
+
 @import"/main/main.scss";
+
+/* Раздел ЛОГО */
+@import "/main/logo/__logo.scss"; 
+/***************/
+
+/* Раздел contact*/
+@import "/main/contact/contact.scss"; 
+/**********************/
+
+/* Раздел скилов*/
+@import "/main/skills/skills.scss"; 
+/**********************/
+
+/* Раздел скилов в ПО*/
+@import "/main/software/software.scss"; 
+/**********************/

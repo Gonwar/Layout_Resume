@@ -1,0 +1,17 @@
+.contact{
+    &__row{
+     
+        &_tittle{
+            padding-right:40px;
+            padding-bottom: 25px;
+            text-transform: uppercase;
+            font-family: $font_bold;
+            font-size: 1.4em;
+            color: #006cb4; 
+
+        }
+        &_content{
+            font-size: 1.6em;   
+        }
+    }
+  }

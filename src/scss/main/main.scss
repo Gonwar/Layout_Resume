@@ -1,19 +1,61 @@
-@import"../fonts.scss";
+h1{
 
-/* Раздел ЛОГО */
-@import "/__logo/__logo.scss"; 
-/***************/
-
-/* Заголовки разделов */
-@import "/__caption/__caption.scss"; 
-/**********************/
-body{
-    max-width: 1280px;
-    min-width: 600px;
-    font-family: $font_regular;
 }
 
-.main>section{
-    margin: auto;
-    border: 1px dashed gray;
+h2{
+    margin: 0;
+    text-transform: uppercase;
+    font-family: $font_bold;
+    font-size: 2.6em;
+    letter-spacing: 1px;
+    color: #006cb4; 
+}
+h3{
+
+}
+
+body{
+    max-width: 1160px;
+    min-width: 600px;
+    font-family: $font_regular;
+    margin: 0 auto;
+}
+
+.main{
+
+    &__caption{
+        @import "__caption/__circle/__circle.scss";
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+        &__logo{
+         
+        }
+        &__text{
+            flex-grow: 1;
+            height: 5px;
+            margin-left: 5px;
+            margin-top: 1px;
+            background-color: #006cb4;
+            &-tittle{
+                text-align:left;
+                margin-left: 18px;
+            }
+        }
+    }
+
+    &__content{
+        padding: 16px 0 53px 0;
+    }
+
+}
+.left__column{
+    float:left;
+    width: 37%;
+}
+
+.right__column{
+    float: right;
+    width: 56%;
 }

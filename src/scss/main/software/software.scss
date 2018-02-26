@@ -1,0 +1,43 @@
+.software{
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    &__progress{
+      text-transform: uppercase;
+      padding-top: 5px;
+      width: 45%;
+      &__bar{
+        margin: 10px 0;
+        height: 24px;
+        min-width: 230px;
+        background-color: #e6e6e6;
+        &_completed{
+            background-color: #006cb4;
+            width: 0%;
+            height: 100%;
+
+        }
+        #progress_photoshop {
+            width: 93%;
+        } 
+        #progress_dreamweaver {
+            width: 85%;
+        }
+        #progress_illustration {
+            width: 60%;
+        }
+        #progress_after_effects {
+            width: 55%;
+        }
+        #progress_indesign {
+            width: 53%;
+        }
+        #progress_htmlcss3 {
+            width: 93%;
+        }
+   
+      }
+    }
+  }
+  

@@ -4,20 +4,28 @@
     height: 100%;
     border-radius: 50%;
 }
+$size: 238px;
+
 .main__logo__picture{
-    width: 209px;
-    height: 209px;
+  margin: auto auto;
+
+    width: $size;
+    height: $size;
     padding: 0;
   }
   
   
   .main__logo__picture-border{
+    position: relative;
     @include circle();
     border: 1px solid #006cb4;
-    padding: 0.9em;
+    
   }
   
   .main__logo__picture-circle{
     @include circle();
+    margin: 0.9em;
+    width: 88%;
+    height: 88%;
     background-color: #006cb4;
   }
