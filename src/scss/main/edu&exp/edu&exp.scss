@@ -1,0 +1,39 @@
+.eduexp{
+    &__list{            
+        margin:0;
+        padding: 13px 12px 0 8px;
+        &__section{
+            display: flex;
+            align-content: space-between;
+            list-style: none;
+
+            
+        
+            &_dot{
+                width: 20px;
+                height: 20px;
+                flex-shrink: 0;
+                background-color: black;
+                border-radius: 50%;
+                margin: 12px 20px 0 0;
+            }
+            &__content{
+                
+                &_header{
+                    font-family: $font_bold;
+                }
+                &_date{
+                    padding-left: 20px;
+                    text-transform: none;
+                }
+                .blue{
+                    color: #006cb4;
+                }
+                .text{
+                    padding: 4px 0 6px 2px;
+                }
+            }
+        }
+        
+    }
+}

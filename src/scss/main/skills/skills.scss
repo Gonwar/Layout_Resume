@@ -1,7 +1,7 @@
 /***** Skills >>> https://codepen.io/anon/pen/VQGjKJ *****/
 
 .skills{
-    max-width: 430px;
+    margin: 6px 0 0 2px;
     &__tittle{
       text-transform: uppercase;
       font-family: $font_regular;
@@ -13,7 +13,7 @@
     }
     &__progress{
       list-style: none;
-      margin: 0;
+      margin: -2px 0 7px 5px;
       padding: 0;
       &__dot{
         display: inline-block;
