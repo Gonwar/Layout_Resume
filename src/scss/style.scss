@@ -3,10 +3,14 @@
 @import"/main/main.scss";
 
 /* Раздел ЛОГО */
-@import "/main/logo/__logo.scss"; 
+@import "/main/logo/logo.scss"; 
 /***************/
 
-/* Раздел contact */
+/* Раздел профиль */
+@import "/main/profile/profile.scss"; 
+/**********************/
+
+/* Раздел контакты */
 @import "/main/contact/contact.scss"; 
 /**********************/
 

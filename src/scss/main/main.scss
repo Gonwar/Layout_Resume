@@ -23,29 +23,32 @@ h3{
 .text{
     padding: 0;
     margin: 0;
-    line-height: 1.3em;
+    line-height: 123%;
+    
+}
+b{
+    font-family: $font_bold;
 }
 body{
     max-width: 1153px;
-    min-width: 600px;
     font-family: $font_regular;
     margin: 50px auto;
 }
 
 .main{
-
     &__caption{
         @import "__caption/__circle/__circle.scss";
         display: flex;
         flex-direction: row;
         align-items: center;
-        &__logo{
+        &__picture{
             flex-shrink: 0;
         }
         &__text{
             &-tittle{
                 text-align:left;
                 margin-left: 13px;
+                margin-top: -3px;
             }
             flex-grow: 1;
             height: 5px;
@@ -54,14 +57,11 @@ body{
         }
     }
 
-    &__content{
-        padding-top: 16px;
-    }
 
 }
 .left__column{
     float:left;
-    width: 36.9%;
+    width: 37.1%;
 }
 
 .right__column{
