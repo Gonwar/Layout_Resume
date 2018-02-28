@@ -1,6 +1,14 @@
 .contact{
+    list-style: none;
+    margin: 20px 0;
+    padding: 0;
+    &__row>div{
+        display: inline-block;
+        
+    }
     &__row{
-     
+        position: relative;
+        margin: 4px 0;
         &_tittle{
             padding-right:40px;
             padding-bottom: 25px;
@@ -11,7 +19,9 @@
 
         }
         &_content{
-            font-size: 1.6em;   
+            position: absolute;
+            left: 135px;
+            font-size: 1.3em;   
         }
     }
   }
