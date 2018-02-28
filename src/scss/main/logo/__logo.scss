@@ -1,22 +1,59 @@
   
-    @import "/__circle/__circle.scss";
-
-    /***** Logo(text) >>> https://codepen.io/anon/pen/QQVdPQ *****/
-    .main__logo__text{
-        text-align: center;
-        text-transform: uppercase;
-        font-weight: bold;
-        font-size: 1.6em;
-        letter-spacing: 1px;
-        &-name{
-            font-family: $font_regular;
-            font-size:  2.5em;
-            letter-spacing: 3px;
-            font-stretch: semi-condensed;
-            margin: 0;
-            padding: 0;
-            font-weight: lighter;
+       /***** Logo(text) >>> https://codepen.io/anon/pen/QQVdPQ *****/
+.logo{
+    padding: 40px 0 19.2% 15px;
+    &__picture{
+        margin: 0 auto;
+        @mixin circle($radius){
+            width: $radius;
+            height: $radius;
+            border-radius: 50%;
+        }
+        $size: 238px;
+        width: $size;
+        height: $size;
+        padding: 0;
+        &-border{
+            position: relative;
+            @include circle(100%);
+            border: 1px solid #006cb4;
+        }
+        &-circle{
+            @include circle(88%);
+            margin: 6%;
+            background-color: #006cb4;
         }
     }
+
+    &__text{
+        margin-top: 32px;
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 54px;
+        &>p{
+            margin: 0;
+        }
+        &-name{
+            font-family: $font_light;
+            font-size:  51px;
+            letter-spacing: 2px;
+            font-weight: lighter;
+        }
+        &-surname{
+            font-family: $font_bold;
+            font-size:  63px;
+            letter-spacing: 0px;
+            font-weight: lighter;
+            padding: 0 0 16px 0;
+        }
+        &-specialization{
+            font-family: $font_bold;
+            font-size:  26px;
+            letter-spacing: -1px;
+            padding-left: 25px;
+            line-height: 1em;
+        }
+    }
+}
     /***** Logo(text) >>> https://codepen.io/anon/pen/QQVdPQ *****/
 
