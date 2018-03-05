@@ -16,11 +16,11 @@ module.exports = {
     // project path
     context: path.resolve(__dirname, 'src'),
 
-    // js input
+    // input
     entry: {
         //main file app
         app: [
-            './js/app.js',
+           // './js/app.js',
             './scss/style.scss'
         ],
     },
@@ -63,17 +63,16 @@ module.exports = {
               },
               //Image
               {
-                  test: /\.(png|gif|jpe?g)$/,
-                  loaders: [
-                    {
-                        loader: 'file-loader',
-                        options: {
-                            name: '[path][name].[ext]',
-                        },
+                test: /\.(gif|png|jpe?g)$/i,
+                use: [
+                  'file-loader',
+                  {
+                    loader: 'image-webpack-loader',
+                    options: {
+                      bypassOnDebug: true,
                     },
-                    'image-loader',
+                  },
                 ],
-            
               },
               //Add fonts
               {
