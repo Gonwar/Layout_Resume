@@ -57,10 +57,18 @@ body{
 }
 .left__column{
     float:left;
+    min-width: 390px;
     width: 37.1%;
 }
 
 .right__column{
     float: right;
     width: 56.1%;
+}
+
+@media screen and (max-width:910px){
+    .left__column,.right__column{
+        float: none;
+        width: 100%;
+    }
 }
