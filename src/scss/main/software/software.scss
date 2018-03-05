@@ -1,32 +1,43 @@
-//@import "./progress__bar/progress_bar.scss";
+@mixin  progress_bar($margin_top, $margin_bottom, $completed){
+    .progress__bar{
+        margin:$margin_top 0 $margin_bottom 0;
+        height: 24px;
+        min-width: 230px;
+        background-color: #e6e6e6;
+        &_completed{
+            background-color: #006cb4;
+            width: $completed;
+            height: 100%;
+        }
+    }
+}
 .software{
-    padding: 19px 0 0 10px;
+    padding: 25px 0 0 8px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     &>div{
-        width: 45%;
+        width: 44%;
     }
-    &_photoshop{
-       // @include progress_bar(22px,16px,93%);
+    .progress{
+        &_photoshop{
+            @include progress_bar(12px,20px,90%);
+        }
+        &_dreamweaver{
+            @include progress_bar(12px,20px,85%);
+        }
+        &_illustrator{
+            @include progress_bar(9px,20px,70%);
+        }
+        &_after-effects{
+            @include progress_bar(9px,20px,63%);
+        }
+        &_indesign{
+            @include progress_bar(7px,20px,55%);
+        }
+        &_htmlcss{
+            @include progress_bar(7px,20px,93%);
+        }
     }
+    
   }
-
-#progress_photoshop {
-    width: 93%;
-} 
-#progress_dreamweaver {
-    width: 85%;
-}
-#progress_illustration {
-    width: 60%;
-}
-#progress_after_effects {
-    width: 55%;
-}
-#progress_indesign {
-    width: 53%;
-}
-#progress_htmlcss3 {
-    width: 93%;
-}
