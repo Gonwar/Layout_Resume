@@ -67,7 +67,7 @@
 /* 0 */
 /***/ (function(module, exports) {
 
-throw new Error("Module parse failed: Assigning to rvalue (5:13)\nYou may need an appropriate loader to handle this file type.\n|         meta(charset=\"UTF-8\")\r\n|         meta(name=\"viewport\", content=\"width=device-width, initial-scale=1.0\")\r\n|         meta(http-equiv=\"X-UA-Compatible\", content=\"ie=edge\")\r\n|         title Document\r\n|     body");
+console.log(`Можно я тут просто постою?`);
 
 /***/ })
 /******/ ]);
