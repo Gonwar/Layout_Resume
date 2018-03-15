@@ -1,7 +1,14 @@
+include ../blocks/main/main.pug
+
 html(lang="en")
     head
         meta(charset="UTF-8")
-        meta(name="viewport", content="width=device-width, initial-scale=1.0")
-        meta(http-equiv="X-UA-Compatible", content="ie=edge")
-        title Resume
+        meta(name="viewport", content="max-width=1153px, initial-scale=1.0")
+        tittle Resume
     body
+    .left_column
+        +article()(icon="bitch")(content_name="rich-bitch")
+        +article("s")(icon="bitch")(content_name="rich-bitch")
+    .right_column
+        +article()(icon="bitch")(content_name="rich-bitch")
+        +article("s")(icon="bitch")(content_name="rich-bitch")

@@ -1,6 +1,13 @@
-doctype html
-html
-  head
-    meta(charset = 'utf-8')
-    meta(name='viewport', content="initial-scale=1.0, width=device-width")
-    title Resume
+mixin article(tittle)
+  if tittle
+    header.caption
+      .caption__picture
+        .caption__picture-border
+          .caption__picture-circle(class=attributes.icon)
+      h2.caption_tittle= tittle
+      .caption_line
+  section(class=attributes.content_name)
+    if block
+      block
+    else
+      p Content not found
