@@ -1,14 +1,15 @@
 include ../blocks/main/main.pug
-
 html(lang="en")
     head
         meta(charset="UTF-8")
-        meta(name="viewport", content="max-width=1153px, initial-scale=1.0")
-        tittle Resume
+        title Resume
     body
     .left_column
-        +article()(icon="bitch")(content_name="rich-bitch")
-        +article("s")(icon="bitch")(content_name="rich-bitch")
+        +article()(content_name="logo")
+        +article("profile")(icon="icon_profile")(content_name="profile")
+        +article("contact")(icon="icon_contact")(content_name="contact")
+        +article("skills")(icon="icon_skills")(content_name="skills")
     .right_column
-        +article()(icon="bitch")(content_name="rich-bitch")
-        +article("s")(icon="bitch")(content_name="rich-bitch")
+        +article("education")(icon="icon_edu")(content_name="edu")
+        +article("experience")(icon="icon_exp")(content_name="exp")
+        +article("software")(icon="icon_software")(content_name="software")

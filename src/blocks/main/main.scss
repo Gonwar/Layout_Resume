@@ -1,0 +1,61 @@
+$size: 73px;
+.caption{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    &__picture{
+        flex-shrink: 0;
+        margin: 0 auto;
+        @mixin circle($radius){
+            width: $radius;
+            height: $radius;
+            border-radius: 50%;
+        }
+        width: $size;
+        height: $size;
+        padding: 0;
+        &_border{
+            position: relative;
+            @include circle(100%);
+            border: 1px solid #006cb4;
+        }
+        &_circle{
+            @include circle(90%);
+            margin: 5%;
+            background-color: #006cb4;
+        }
+    }
+    &_line{
+        flex-grow: 1;
+        height: 5px;
+        margin-left: 6px;
+        background-color: #006cb4;
+    }
+    &_tittle{
+        text-align:left;
+        margin-left: 13px;
+        margin-top: -3px;
+    }
+}
+
+.logo{
+    padding: 13px 0 79px 15px;
+}
+.profile{
+    padding: 13px 0 50px 0px;
+}
+.contact{
+    padding: 27px 0 17px 0;
+}
+.skills{
+    margin: 16px 0 0 2px;
+}
+.edu{
+    padding: 26px 0 45px 0;
+}
+.exp{
+    padding: 41px 0 46px 0;
+}
+.software{
+    padding: 25px 0 0 8px;
+}

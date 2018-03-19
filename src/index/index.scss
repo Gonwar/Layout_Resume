@@ -1,0 +1,54 @@
+@import "../fonts/fonts.scss";
+@import "../blocks/main/main.scss";
+
+h2{
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-family: $font_bold;
+    font-size: 2.6em;
+    letter-spacing: 1px;
+    color: #006cb4; 
+}
+
+h3{
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-family: $font_light;
+    font-size: 25px;
+    line-height: 1.4em;
+}
+
+p{
+    padding: 0;
+    margin: 0;
+    line-height: 123%;
+}
+
+b{
+    font-family: $font_bold;
+}
+body{
+    max-width: 1153px;
+    font-family: $font_regular;
+    margin: 50px auto;
+}
+
+.left_column{
+    float:left;
+    min-width: 390px;
+    width: 37.1%;
+}
+
+.right_column{
+    float: right;
+    width: 56.1%;
+}
+
+@media screen and (max-width:910px){
+    .left_column,.right_column{
+        float: none;
+        width: 100%;
+    }
+}
