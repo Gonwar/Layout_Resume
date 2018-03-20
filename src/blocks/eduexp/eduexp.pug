@@ -1,0 +1,9 @@
+mixin list_section(name, date, subname, text)
+    .list__section
+        .list__section_dot
+        .list__section__content
+            h3
+                span.list__section__content_name(class=attributes.color)= name
+                span.list__section__content_date //#{date}
+                span.list__section__content_subname= subname
+            p.text= text

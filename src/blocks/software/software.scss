@@ -1,0 +1,48 @@
+@import "./progress_bar/progress_bar.scss";
+.progress{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    &>div{
+        width: 44%;
+        @media (max-width:670px){
+            width: 100%;
+        }
+    }
+    &_photoshop{
+        margin:0 0 20px 0;
+        &>h3{
+            margin-bottom: 12px;
+        }
+    }
+    &_dreamweaver{
+        margin:0 0 20px 0;
+        &>h3{
+            margin-bottom: 12px;
+        }
+    }
+    &_illustrator{
+        margin:0 0 20px 0;
+        &>h3{
+            margin-bottom: 10px;
+        }
+    }
+    &_aftereffects{
+        margin:0 0 20px 0;
+        &>h3{
+            margin-bottom: 10px;
+        }
+    }
+    &_indesign{
+        margin:0 0 20px 0;
+        &>h3{
+            margin-bottom: 8px;
+        }
+    }
+    &_htmlcss{
+        margin:0 0 20px 0;
+        &>h3{
+            margin-bottom: 8px;
+        }
+    }
+}

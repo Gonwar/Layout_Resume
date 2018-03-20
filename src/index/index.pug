@@ -2,6 +2,9 @@ include ../blocks/main/main.pug
 include ../blocks/logo/logo.pug
 include ../blocks/contact/contact.pug
 include ../blocks/skills/skills.pug
+include ../blocks/edu/edu.pug
+include ../blocks/exp/exp.pug
+include ../blocks/software/software.pug
 
 html(lang="en")
     head
@@ -18,6 +21,9 @@ html(lang="en")
             +article("skills")(icon="icon_skills")(content_name="skills")
                 +skills("9","11","6","11")
         .right_column
-            +article("education")(icon="icon_edu")(content_name="edu")
-            +article("experience")(icon="icon_exp")(content_name="exp")
-            +article("software")(icon="icon_software")(content_name="software")
+            +article(" education")(icon="icon_edu")(content_name="edu")
+                +edu()
+            +article(" experience")(icon="icon_exp")(content_name="exp")
+                +exp()
+            +article(" software")(icon="icon_software")(content_name="software")
+                +software("90%","85%","70%","63%","55%","93%")

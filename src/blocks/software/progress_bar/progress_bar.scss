@@ -1,0 +1,9 @@
+.progress__bar{
+    height: 23px;
+    min-width: 230px;
+    background-color: #e6e6e6;
+    &_completed{
+        background-color: #006cb4;
+        height: 100%;
+    }
+}
