@@ -1,0 +1,19 @@
+mixin contact(adress,mail,phone,website)
+    ul.contact__list
+        if(adress)
+            li.contact__list__row
+                .contact__list__row_tittle adress
+                .contact__list__row_content= adress
+        if(mail)
+            li.contact__list__row
+                .contact__list__row_tittle e-mail
+                .contact__list__row_content= mail
+        if(phone)
+            li.contact__list__row
+                .contact__list__row_tittle phone
+                .contact__list__row_content= phone
+        if(website)
+            li.contact__list__row
+                .contact__list__row_tittle website
+                .contact__list__row_content= website
+                

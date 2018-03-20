@@ -1,0 +1,12 @@
+@import "/progress_dot/progress_dot.scss";
+.skills__list{
+    &_title{
+      text-transform: uppercase;
+      font-family: $font_regular;
+      font-size: 1.6em;
+      letter-spacing: 1px;
+      text-align: center;
+      text-transform: uppercase;
+      padding: 10px 10px;
+    }
+}

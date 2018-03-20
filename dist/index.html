@@ -4,84 +4,194 @@
     <meta charset="UTF-8">
     <title>Resume</title>
   <link href="./css/main.css" rel="stylesheet"></head>
-  <body><script type="text/javascript" src="main.js"></script></body>
-  <div class="left_column">
-    <section class="logo">
-      <p>Content not found</p>
-    </section>
-    <header class="caption">
-      <div class="caption__picture">
-        <div class="caption__picture_border">
-          <div class="caption__picture_circle icon_profile"></div>
-        </div>
-      </div>
-      <h2 class="caption_tittle">profile</h2>
-      <div class="caption_line"></div>
-    </header>
-    <section class="profile">
-      <p>Content not found</p>
-    </section>
-    <header class="caption">
-      <div class="caption__picture">
-        <div class="caption__picture_border">
-          <div class="caption__picture_circle icon_contact"></div>
-        </div>
-      </div>
-      <h2 class="caption_tittle">contact</h2>
-      <div class="caption_line"></div>
-    </header>
-    <section class="contact">
-      <p>Content not found</p>
-    </section>
-    <header class="caption">
-      <div class="caption__picture">
-        <div class="caption__picture_border">
-          <div class="caption__picture_circle icon_skills"></div>
-        </div>
-      </div>
-      <h2 class="caption_tittle">skills</h2>
-      <div class="caption_line"></div>
-    </header>
-    <section class="skills">
-      <p>Content not found</p>
-    </section>
-  </div>
-  <div class="right_column">
-    <header class="caption">
-      <div class="caption__picture">
-        <div class="caption__picture_border">
-          <div class="caption__picture_circle icon_edu"></div>
-        </div>
-      </div>
-      <h2 class="caption_tittle">education</h2>
-      <div class="caption_line"></div>
-    </header>
-    <section class="edu">
-      <p>Content not found</p>
-    </section>
-    <header class="caption">
-      <div class="caption__picture">
-        <div class="caption__picture_border">
-          <div class="caption__picture_circle icon_exp"></div>
-        </div>
-      </div>
-      <h2 class="caption_tittle">experience</h2>
-      <div class="caption_line"></div>
-    </header>
-    <section class="exp">
-      <p>Content not found</p>
-    </section>
-    <header class="caption">
-      <div class="caption__picture">
-        <div class="caption__picture_border">
-          <div class="caption__picture_circle icon_software"></div>
-        </div>
-      </div>
-      <h2 class="caption_tittle">software</h2>
-      <div class="caption_line"></div>
-    </header>
-    <section class="software">
-      <p>Content not found</p>
-    </section>
-  </div>
+  <body>
+    <div class="left_column">
+      <article>
+        <section class="logo">
+          <div class="logo__picture">
+            <div class="logo__picture_border">
+              <div class="logo__picture_circle"></div>
+            </div>
+          </div>
+          <div class="logo__text">
+            <p class="logo__text-name">name here</p>
+            <p class="logo__text-surname">surname</p>
+            <p class="logo__text-specialization">graphic designer</p>
+          </div>
+        </section>
+      </article>
+      <article>
+        <header class="caption">
+          <div class="caption__picture">
+            <div class="caption__picture_border">
+              <div class="caption__picture_circle icon_profile"></div>
+            </div>
+          </div>
+          <h2 class="caption_tittle">profile</h2>
+          <div class="caption_line"></div>
+        </header>
+        <section class="profile">
+          <p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis <b>eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.</b></p>
+        </section>
+      </article>
+      <article>
+        <header class="caption">
+          <div class="caption__picture">
+            <div class="caption__picture_border">
+              <div class="caption__picture_circle icon_contact"></div>
+            </div>
+          </div>
+          <h2 class="caption_tittle">contact</h2>
+          <div class="caption_line"></div>
+        </header>
+        <section class="contact">
+          <ul class="contact__list">
+            <li class="contact__list__row">
+              <div class="contact__list__row_tittle">adress</div>
+              <div class="contact__list__row_content">Main Street, City.</div>
+            </li>
+            <li class="contact__list__row">
+              <div class="contact__list__row_tittle">e-mail</div>
+              <div class="contact__list__row_content">contact@domain.com</div>
+            </li>
+            <li class="contact__list__row">
+              <div class="contact__list__row_tittle">phone</div>
+              <div class="contact__list__row_content">555-555-555</div>
+            </li>
+            <li class="contact__list__row">
+              <div class="contact__list__row_tittle">website</div>
+              <div class="contact__list__row_content">www.yourweb.com</div>
+            </li>
+          </ul>
+        </section>
+      </article>
+      <article>
+        <header class="caption">
+          <div class="caption__picture">
+            <div class="caption__picture_border">
+              <div class="caption__picture_circle icon_skills"></div>
+            </div>
+          </div>
+          <h2 class="caption_tittle">skills</h2>
+          <div class="caption_line"></div>
+        </header>
+        <section class="skills">
+          <dl class="skills__list">
+            <dt class="skills__list_title">creative</dt>
+            <dd class="skills__list_description">
+              <ul class="progress__dots">
+                <li class="progress__dots_dot enabled"></li>
+                <li class="progress__dots_dot enabled"></li>
+                <li class="progress__dots_dot enabled"></li>
+                <li class="progress__dots_dot enabled"></li>
+                <li class="progress__dots_dot enabled"></li>
+                <li class="progress__dots_dot enabled"></li>
+                <li class="progress__dots_dot enabled"></li>
+                <li class="progress__dots_dot enabled"></li>
+                <li class="progress__dots_dot enabled"></li>
+                <li class="progress__dots_dot"></li>
+                <li class="progress__dots_dot"></li>
+                <li class="progress__dots_dot"></li>
+              </ul>
+            </dd>
+            <dt class="skills__list_title">teamwork</dt>
+            <dd class="skills__list_description">
+              <ul class="progress__dots">
+                <li class="progress__dots_dot enabled"></li>
+                <li class="progress__dots_dot enabled"></li>
+                <li class="progress__dots_dot enabled"></li>
+                <li class="progress__dots_dot enabled"></li>
+                <li class="progress__dots_dot enabled"></li>
+                <li class="progress__dots_dot enabled"></li>
+                <li class="progress__dots_dot enabled"></li>
+                <li class="progress__dots_dot enabled"></li>
+                <li class="progress__dots_dot enabled"></li>
+                <li class="progress__dots_dot enabled"></li>
+                <li class="progress__dots_dot enabled"></li>
+                <li class="progress__dots_dot"></li>
+              </ul>
+            </dd>
+            <dt class="skills__list_title">innovate</dt>
+            <dd class="skills__list_description">
+              <ul class="progress__dots">
+                <li class="progress__dots_dot enabled"></li>
+                <li class="progress__dots_dot enabled"></li>
+                <li class="progress__dots_dot enabled"></li>
+                <li class="progress__dots_dot enabled"></li>
+                <li class="progress__dots_dot enabled"></li>
+                <li class="progress__dots_dot enabled"></li>
+                <li class="progress__dots_dot"></li>
+                <li class="progress__dots_dot"></li>
+                <li class="progress__dots_dot"></li>
+                <li class="progress__dots_dot"></li>
+                <li class="progress__dots_dot"></li>
+                <li class="progress__dots_dot"></li>
+              </ul>
+            </dd>
+            <dt class="skills__list_title">communication</dt>
+            <dd class="skills__list_description">
+              <ul class="progress__dots">
+                <li class="progress__dots_dot enabled"></li>
+                <li class="progress__dots_dot enabled"></li>
+                <li class="progress__dots_dot enabled"></li>
+                <li class="progress__dots_dot enabled"></li>
+                <li class="progress__dots_dot enabled"></li>
+                <li class="progress__dots_dot enabled"></li>
+                <li class="progress__dots_dot enabled"></li>
+                <li class="progress__dots_dot enabled"></li>
+                <li class="progress__dots_dot enabled"></li>
+                <li class="progress__dots_dot enabled"></li>
+                <li class="progress__dots_dot enabled"></li>
+                <li class="progress__dots_dot"></li>
+              </ul>
+            </dd>
+          </dl>
+        </section>
+      </article>
+    </div>
+    <div class="right_column">
+      <article>
+        <header class="caption">
+          <div class="caption__picture">
+            <div class="caption__picture_border">
+              <div class="caption__picture_circle icon_edu"></div>
+            </div>
+          </div>
+          <h2 class="caption_tittle">education</h2>
+          <div class="caption_line"></div>
+        </header>
+        <section class="edu">
+          <p>Content not found</p>
+        </section>
+      </article>
+      <article>
+        <header class="caption">
+          <div class="caption__picture">
+            <div class="caption__picture_border">
+              <div class="caption__picture_circle icon_exp"></div>
+            </div>
+          </div>
+          <h2 class="caption_tittle">experience</h2>
+          <div class="caption_line"></div>
+        </header>
+        <section class="exp">
+          <p>Content not found</p>
+        </section>
+      </article>
+      <article>
+        <header class="caption">
+          <div class="caption__picture">
+            <div class="caption__picture_border">
+              <div class="caption__picture_circle icon_software"></div>
+            </div>
+          </div>
+          <h2 class="caption_tittle">software</h2>
+          <div class="caption_line"></div>
+        </header>
+        <section class="software">
+          <p>Content not found</p>
+        </section>
+      </article>
+    </div>
+  <script type="text/javascript" src="main.js"></script></body>
 </html>

@@ -1,5 +1,8 @@
 @import "../fonts/fonts.scss";
 @import "../blocks/main/main.scss";
+@import "../blocks/logo/logo.scss";
+@import "../blocks/contact/contact.scss";
+@import "../blocks/skills/skills.scss";
 
 h2{
     margin: 0;
@@ -20,7 +23,7 @@ h3{
     line-height: 1.4em;
 }
 
-p{
+.text{
     padding: 0;
     margin: 0;
     line-height: 123%;

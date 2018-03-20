@@ -1,15 +1,23 @@
 include ../blocks/main/main.pug
+include ../blocks/logo/logo.pug
+include ../blocks/contact/contact.pug
+include ../blocks/skills/skills.pug
+
 html(lang="en")
     head
         meta(charset="UTF-8")
         title Resume
     body
-    .left_column
-        +article()(content_name="logo")
-        +article("profile")(icon="icon_profile")(content_name="profile")
-        +article("contact")(icon="icon_contact")(content_name="contact")
-        +article("skills")(icon="icon_skills")(content_name="skills")
-    .right_column
-        +article("education")(icon="icon_edu")(content_name="edu")
-        +article("experience")(icon="icon_exp")(content_name="exp")
-        +article("software")(icon="icon_software")(content_name="software")
+        .left_column
+            +article()(content_name="logo")
+                +logo("name here","surname","graphic designer")
+            +article("profile")(icon="icon_profile")(content_name="profile")
+                p.text Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis <b>eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.</b>
+            +article("contact")(icon="icon_contact")(content_name="contact")
+                +contact("Main Street, City.", "contact@domain.com", "555-555-555", "www.yourweb.com")
+            +article("skills")(icon="icon_skills")(content_name="skills")
+                +skills("9","11","6","11")
+        .right_column
+            +article("education")(icon="icon_edu")(content_name="edu")
+            +article("experience")(icon="icon_exp")(content_name="exp")
+            +article("software")(icon="icon_software")(content_name="software")

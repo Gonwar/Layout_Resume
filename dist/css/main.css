@@ -73,6 +73,91 @@
 .software {
   padding: 25px 0 0 8px; }
 
+.logo__picture {
+  margin: 0 auto;
+  width: 238px;
+  height: 238px;
+  padding: 0; }
+  .logo__picture_border {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 1px solid #006cb4; }
+  .logo__picture_circle {
+    width: 88%;
+    height: 88%;
+    border-radius: 50%;
+    margin: 6%;
+    background-color: #006cb4; }
+
+.logo__text {
+  margin-top: 32px;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 54px; }
+  .logo__text > p {
+    margin: 0; }
+  .logo__text-name {
+    font-family: MariydPro_light;
+    font-size: 51px;
+    letter-spacing: 2px; }
+  .logo__text-surname {
+    font-family: MariydPro_bold;
+    font-size: 63px;
+    letter-spacing: 0px;
+    padding: 0 0 16px 0; }
+  .logo__text-specialization {
+    font-family: MariydPro_bold;
+    font-size: 26px;
+    letter-spacing: -1px;
+    padding-left: 25px;
+    line-height: 1em; }
+
+.contact__list {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+  .contact__list__row > div {
+    display: inline-block; }
+  .contact__list__row {
+    position: relative;
+    margin: 4px 0; }
+    .contact__list__row_tittle {
+      padding-bottom: 25px;
+      text-transform: uppercase;
+      font-family: MariydPro_bold;
+      letter-spacing: -1px;
+      font-size: 1.4em;
+      color: #006cb4; }
+    .contact__list__row_content {
+      position: absolute;
+      left: 132px;
+      font-size: 1.3em; }
+
+.progress__dots {
+  list-style: none;
+  margin: -2px 0 9px 5px;
+  padding: 0; }
+  .progress__dots_dot {
+    display: inline-block;
+    margin-right: 7px;
+    width: 18px;
+    height: 18px;
+    background-color: #e6e6e6;
+    border-radius: 50%; }
+  .progress__dots .enabled {
+    background-color: #006cb4; }
+
+.skills__list_title {
+  text-transform: uppercase;
+  font-family: MariydPro_regular;
+  font-size: 1.6em;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px 10px; }
+
 h2 {
   margin: 0;
   padding: 0;
@@ -90,7 +175,7 @@ h3 {
   font-size: 25px;
   line-height: 1.4em; }
 
-p {
+.text {
   padding: 0;
   margin: 0;
   line-height: 123%; }
