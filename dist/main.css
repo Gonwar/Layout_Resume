@@ -1,24 +1,54 @@
 @charset "UTF-8";
 @font-face {
   font-family: 'MariydPro_bold';
-  src: url(../fonts/8141.eot);
-  src: local("\263A"), url(../fonts/8141.woff) format("woff"), url(../fonts/8141.ttf) format("truetype"), url(../fonts/8141.svg) format("svg");
+  src: url(fonts/8141.eot);
+  src: local("\263A"), url(fonts/8141.woff) format("woff"), url(fonts/8141.ttf) format("truetype"), url(fonts/8141.svg) format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'MariydPro_regular';
-  src: url(../fonts/8143.eot);
-  src: local("\263A"), url(../fonts/8143.woff) format("woff"), url(../fonts/8143.ttf) format("truetype"), url(../fonts/8143.svg) format("svg");
+  src: url(fonts/8143.eot);
+  src: local("\263A"), url(fonts/8143.woff) format("woff"), url(fonts/8143.ttf) format("truetype"), url(fonts/8143.svg) format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'MariydPro_light';
-  src: url(../fonts/Myriad-Pro-Light-SemiExtended_31641.eot);
-  src: local("\263A"), url(../fonts/Myriad-Pro-Light-SemiExtended_31641.woff) format("woff"), url(../fonts/Myriad-Pro-Light-SemiExtended_31641.ttf) format("truetype"), url(../fonts/Myriad-Pro-Light-SemiExtended_31641.svg) format("svg");
+  src: url(fonts/Myriad-Pro-Light-SemiExtended_31641.eot);
+  src: local("\263A"), url(fonts/Myriad-Pro-Light-SemiExtended_31641.woff) format("woff"), url(fonts/Myriad-Pro-Light-SemiExtended_31641.ttf) format("truetype"), url(fonts/Myriad-Pro-Light-SemiExtended_31641.svg) format("svg");
   font-weight: normal;
   font-style: normal; }
+
+.icon_profile {
+  background-image: url(img/sprites.png);
+  background-position: 5px 8px;
+  background-repeat: no-repeat; }
+
+.icon_contact {
+  background-image: url(img/sprites.png);
+  background-position: -96px 8px;
+  background-repeat: no-repeat; }
+
+.icon_skills {
+  background-image: url(img/sprites.png);
+  background-position: -193px 8px;
+  background-repeat: no-repeat; }
+
+.icon_edu {
+  background-image: url(img/sprites.png);
+  background-position: -301px 8px;
+  background-repeat: no-repeat; }
+
+.icon_exp {
+  background-image: url(img/sprites.png);
+  background-position: -397px 7px;
+  background-repeat: no-repeat; }
+
+.icon_software {
+  background-image: url(img/sprites.png);
+  background-position: -500px 7px;
+  background-repeat: no-repeat; }
 
 .caption {
   display: flex;
