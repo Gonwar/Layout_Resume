@@ -1,4 +1,1 @@
-html -> /app  
-scss -> /src  
-fonts -> /fonts  
-Скомпилированные webpack'ом файлы -> /dist
+https://gonwar.github.io/Layout_Resume/dist/index.html
