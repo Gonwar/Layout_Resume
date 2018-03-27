@@ -144,23 +144,23 @@
     padding-left: 25px;
     line-height: 1em; }
 
-.contact__list {
+.contact-list {
   list-style: none;
   padding: 0;
   margin: 0; }
-  .contact__list__row > div {
+  .contact-list__row > div {
     display: inline-block; }
-  .contact__list__row {
+  .contact-list__row {
     position: relative;
     margin: 4px 0; }
-    .contact__list__row_tittle {
+    .contact-list__row-tittle {
       padding-bottom: 25px;
       text-transform: uppercase;
       font-family: MariydPro_bold;
       letter-spacing: -1px;
       font-size: 1.4em;
       color: #006cb4; }
-    .contact__list__row_content {
+    .contact-list__row-content {
       position: absolute;
       left: 132px;
       font-size: 1.3em; }

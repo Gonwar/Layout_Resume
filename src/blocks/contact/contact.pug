@@ -1,19 +1,19 @@
 mixin contact(adress,mail,phone,website)
-    ul.contact__list
+    ul.contact-list
         if(adress)
-            li.contact__list__row
-                .contact__list__row_tittle adress
-                .contact__list__row_content= adress
+            li.contact-list__row
+                .contact-list__row-tittle adress
+                .contact-list__row-content= adress
         if(mail)
-            li.contact__list__row
-                .contact__list__row_tittle e-mail
-                .contact__list__row_content= mail
+            li.contact-list__row
+                .contact-list__row-tittle e-mail
+                .contact-list__row-content= mail
         if(phone)
-            li.contact__list__row
-                .contact__list__row_tittle phone
-                .contact__list__row_content= phone
+            li.contact-list__row
+                .contact-list__row-tittle phone
+                .contact-list__row-content= phone
         if(website)
-            li.contact__list__row
-                .contact__list__row_tittle website
-                .contact__list__row_content= website
+            li.contact-list__row
+                .contact-list__row-tittle website
+                .contact-list__row-content= website
                 
