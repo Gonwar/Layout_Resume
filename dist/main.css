@@ -60,24 +60,24 @@
     width: 73px;
     height: 73px;
     padding: 0; }
-    .caption__picture_border {
+    .caption__picture-border {
       position: relative;
       width: 100%;
       height: 100%;
       border-radius: 50%;
       border: 1px solid #006cb4; }
-    .caption__picture_circle {
+    .caption__picture-circle {
       width: 90%;
       height: 90%;
       border-radius: 50%;
       margin: 5%;
       background-color: #006cb4; }
-  .caption_line {
+  .caption__line {
     flex-grow: 1;
     height: 5px;
     margin-left: 6px;
     background-color: #006cb4; }
-  .caption_tittle {
+  .caption__tittle {
     text-align: left;
     margin-left: 13px;
     margin-top: -3px; }
@@ -188,63 +188,63 @@
   text-transform: uppercase;
   padding: 10px 10px; }
 
-.list__section {
+.list-section {
   display: flex;
   align-content: space-between;
   list-style: none;
   padding: 0 0 3px; }
-  .list__section_dot {
+  .list-section__dot {
     width: 21px;
     height: 21px;
     flex-shrink: 0;
     background-color: black;
     border-radius: 50%;
     margin: 8px 21px 0 0; }
-  .list__section__content_name {
+  .list-section__content-name {
     font-family: MariydPro_bold;
     letter-spacing: 1px; }
-  .list__section__content_date {
+    .list-section__content-name_blue {
+      color: #006cb4; }
+  .list-section__content-date {
     padding-left: 8px;
     letter-spacing: 2px;
     text-transform: none; }
-  .list__section__content_subname {
+  .list-section__content-subname {
     display: block; }
-  .list__section__content .blue {
-    color: #006cb4; }
-  .list__section__content .text {
+  .list-section__text {
     padding: 4px 0 6px 2px; }
 
-.list__section {
+.list-section {
   display: flex;
   align-content: space-between;
   list-style: none;
   padding: 0 0 3px; }
-  .list__section_dot {
+  .list-section__dot {
     width: 21px;
     height: 21px;
     flex-shrink: 0;
     background-color: black;
     border-radius: 50%;
     margin: 8px 21px 0 0; }
-  .list__section__content_name {
+  .list-section__content-name {
     font-family: MariydPro_bold;
     letter-spacing: 1px; }
-  .list__section__content_date {
+    .list-section__content-name_blue {
+      color: #006cb4; }
+  .list-section__content-date {
     padding-left: 8px;
     letter-spacing: 2px;
     text-transform: none; }
-  .list__section__content_subname {
+  .list-section__content-subname {
     display: block; }
-  .list__section__content .blue {
-    color: #006cb4; }
-  .list__section__content .text {
+  .list-section__text {
     padding: 4px 0 6px 2px; }
 
-.progress__bar {
+.progress-bar {
   height: 23px;
   min-width: 230px;
   background-color: #e6e6e6; }
-  .progress__bar_completed {
+  .progress-bar_completed {
     background-color: #006cb4;
     height: 100%; }
 
@@ -257,29 +257,29 @@
     @media (max-width: 670px) {
       .progress > div {
         width: 100%; } }
-  .progress_photoshop {
+  .progress__photoshop {
     margin: 0 0 20px 0; }
-    .progress_photoshop > h3 {
+    .progress__photoshop > h3 {
       margin-bottom: 12px; }
-  .progress_dreamweaver {
+  .progress__dreamweaver {
     margin: 0 0 20px 0; }
-    .progress_dreamweaver > h3 {
+    .progress__dreamweaver > h3 {
       margin-bottom: 12px; }
-  .progress_illustrator {
+  .progress__illustrator {
     margin: 0 0 20px 0; }
-    .progress_illustrator > h3 {
+    .progress__illustrator > h3 {
       margin-bottom: 10px; }
-  .progress_aftereffects {
+  .progress__aftereffects {
     margin: 0 0 20px 0; }
-    .progress_aftereffects > h3 {
+    .progress__aftereffects > h3 {
       margin-bottom: 10px; }
-  .progress_indesign {
+  .progress__indesign {
     margin: 0 0 20px 0; }
-    .progress_indesign > h3 {
+    .progress__indesign > h3 {
       margin-bottom: 8px; }
-  .progress_htmlcss {
+  .progress__htmlcss {
     margin: 0 0 20px 0; }
-    .progress_htmlcss > h3 {
+    .progress__htmlcss > h3 {
       margin-bottom: 8px; }
 
 h2 {
@@ -313,17 +313,17 @@ body {
   font-family: MariydPro_regular;
   margin: 50px auto; }
 
-.left_column {
+.left-column {
   float: left;
   min-width: 390px;
   width: 37.1%; }
 
-.right_column {
+.right-column {
   float: right;
   min-width: 390px;
   width: 56.1%; }
 
 @media screen and (max-width: 910px) {
-  .left_column, .right_column {
+  .left-column, .right-column {
     float: none;
     width: 100%; } }

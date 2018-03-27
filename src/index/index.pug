@@ -11,7 +11,7 @@ html(lang="en")
         meta(charset="UTF-8")
         title Resume
     body
-        .left_column
+        .left-column
             +article()(content_name="logo")
                 +logo("name here","surname","graphic designer")
             +article("profile")(icon="icon_profile")(content_name="profile")
@@ -20,7 +20,7 @@ html(lang="en")
                 +contact("Main Street, City.", "contact@domain.com", "555-555-555", "www.yourweb.com")
             +article("skills")(icon="icon_skills")(content_name="skills")
                 +skills("9","11","6","11")
-        .right_column
+        .right-column
             +article(" education")(icon="icon_edu")(content_name="edu")
                 +edu()
             +article(" experience")(icon="icon_exp")(content_name="exp")

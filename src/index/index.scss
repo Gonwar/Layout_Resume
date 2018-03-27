@@ -42,20 +42,20 @@ body{
     margin: 50px auto;
 }
 
-.left_column{
+.left-column{
     float:left;
     min-width: 390px;
     width: 37.1%;
 }
 
-.right_column{
+.right-column{
     float: right;
     min-width: 390px;
     width: 56.1%;
 }
 
 @media screen and (max-width:910px){
-    .left_column,.right_column{
+    .left-column,.right-column{
         float: none;
         width: 100%;
     }

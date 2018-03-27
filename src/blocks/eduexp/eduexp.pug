@@ -1,9 +1,9 @@
 mixin list_section(name, date, subname, text)
-    .list__section
-        .list__section_dot
-        .list__section__content
+    .list-section
+        .list-section__dot
+        .list-section__content
             h3
-                span.list__section__content_name(class=attributes.color)= name
-                span.list__section__content_date //#{date}
-                span.list__section__content_subname= subname
-            p.text= text
+                span.list-section__content-name(class=attributes.color)= name
+                span.list-section__content-date //#{date}
+                span.list-section__content-subname= subname
+            p.list-section__text= text

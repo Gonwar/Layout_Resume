@@ -15,24 +15,24 @@ $size: 73px;
         width: $size;
         height: $size;
         padding: 0;
-        &_border{
+        &-border{
             position: relative;
             @include circle(100%);
             border: 1px solid #006cb4;
         }
-        &_circle{
+        &-circle{
             @include circle(90%);
             margin: 5%;
             background-color: #006cb4;
         }
     }
-    &_line{
+    &__line{
         flex-grow: 1;
         height: 5px;
         margin-left: 6px;
         background-color: #006cb4;
     }
-    &_tittle{
+    &__tittle{
         text-align:left;
         margin-left: 13px;
         margin-top: -3px;
