@@ -165,21 +165,21 @@
       left: 132px;
       font-size: 1.3em; }
 
-.progress__dots {
+.progress-dots {
   list-style: none;
   margin: -2px 0 9px 5px;
   padding: 0; }
-  .progress__dots_dot {
+  .progress-dots__dot {
     display: inline-block;
     margin-right: 7px;
     width: 18px;
     height: 18px;
     background-color: #e6e6e6;
     border-radius: 50%; }
-  .progress__dots .enabled {
-    background-color: #006cb4; }
+    .progress-dots__dot_enabled {
+      background-color: #006cb4; }
 
-.skills__list_title {
+.skills-list__title {
   text-transform: uppercase;
   font-family: MariydPro_regular;
   font-size: 1.6em;

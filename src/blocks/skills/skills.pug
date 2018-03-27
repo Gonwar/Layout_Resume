@@ -1,19 +1,19 @@
 include ./progress_dot/progress_dot.pug
 mixin skills(creative, teamwork, innovate, communication)
-    dl.skills__list
+    dl.skills-list
         if(creative)
-            dt.skills__list_title creative
-            dd.skills__list_description
+            dt.skills-list__title creative
+            dd.skills-list__description
                 +progress_dot(creative)
         if(teamwork)
-            dt.skills__list_title teamwork
-            dd.skills__list_description
+            dt.skills-list__title teamwork
+            dd.skills-list__description
                 +progress_dot(teamwork)
         if(innovate)
-            dt.skills__list_title innovate
-            dd.skills__list_description
+            dt.skills-list__title innovate
+            dd.skills-list__description
                 +progress_dot(innovate)
         if(communication)
-            dt.skills__list_title communication
-            dd.skills__list_description
+            dt.skills-list__title communication
+            dd.skills-list__description
                 +progress_dot(communication)
